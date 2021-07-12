@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "example_corp"
+    organization = "example_corporal"
 
     workspaces {
-      name = "my-app-prod"
+      name = "my-app-prd"
     }
   }
 }
