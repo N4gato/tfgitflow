@@ -3,7 +3,7 @@ terraform {
     organization = "example_corp"
 
     workspaces {
-      name = "my-app-prod"
+      name = "my-app-prd"
     }
   }
 }
