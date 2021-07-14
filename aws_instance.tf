@@ -29,7 +29,7 @@ resource "aws_instance" "web5" {
 }
 resource "aws_instance" "web6" {
   ami           = "ami-a1b2c3d4"
-  instance_type = "t3.micro"
+  instance_type = "t2.micro"
 }
 
 resource "aws_instance" "web7" {
